@@ -1,4 +1,5 @@
 ------------------Running the Flask Application-------------
+
 Prerequisites
 
     Python 3.x installed
@@ -7,39 +8,29 @@ Prerequisites
 
 Steps to Run the Application
 
-    Clone the Repository
+Clone the Repository
 
-    bash
-
-git clone <repository-url>
-cd <project-directory>
+    git clone <repository-url>
+    cd <project-directory>
 
 Set Up the Environment
 Create and activate a virtual environment (optional but recommended):
 
-bash
-
-python3 -m venv venv
-source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
 Install Dependencies
 Install Flask and other required packages:
 
-bash
-
-pip install Flask
+    pip install Flask
 
 Create Environment Variables
 Set the FLASK_APP environment variable to point to your application file:
 
-bash
-
-export FLASK_APP=app.py
+    export FLASK_APP=app.py
 
 Run the Flask Application
 Start the Flask development server:
-
-bash
 
     flask run
 
